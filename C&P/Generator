@@ -1,0 +1,30 @@
+from random import randint
+posi_counter = 0
+nega_counter = 0
+zero_counter = 0
+avg_counter = 0
+
+# Inputs
+num_gen = int(input("How many numbers to be generated? "))
+if num_gen > 0:
+    max_gen = int(input("Enter maximum number to be generated (>0): "))
+    min_gen = max_gen * -1
+    print("For {} numbers in the range, {} to {}:".format(
+    num_gen, min_gen, max_gen))
+    avg = 0
+    # Outputs
+    for x in range(num_gen):
+        print(randint(min_gen, max_gen))
+        avg_counter += 1
+        avg = avg + x
+        if x > 0:
+            posi_counter += 1
+        elif x < 0:
+            nega_counter += 1
+        elif x == 0:
+            zero_counter += 1
+    average_total = avg / avg_counter
+    print("{} positive numbers".format(posi_counter))
+    print("{} zero numbers".format(zero_counter))
+    print("{} negative numbers".format(nega_counter))
+    print("{:.1f} average value".format(average_total))
