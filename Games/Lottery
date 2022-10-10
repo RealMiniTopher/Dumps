@@ -1,0 +1,141 @@
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('Here is your lottery ticket!')
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('*You scratch the lottery ticket*')
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('Here are your numbers!')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('Write these numbers down! I will give you 10 seconds!')
+
+time.sleep(10)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('There are 5 winning tickets! Lets see if you get one!')
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('The first winning combo is--')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+time.sleep(4)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('The second winning combo is--')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+time.sleep(4)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('The third winning combo is--')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+time.sleep(4)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('The fourth winning combo is--')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+time.sleep(4)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('The fifth winning combo is--')
+import random
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+print(random.randint(1,9))
+time.sleep(4)
+
+import sys,time
+def sprint(str):
+   for c in str + '\n':
+     sys.stdout.write(c)
+     sys.stdout.flush()
+     time.sleep(1./10)
+
+sprint('Did you win? If not then you can restart the program to try again!')
